@@ -1,4 +1,5 @@
 import { Header } from "../../components/header";
+import ItemList from "../../components/intemList";
 
 import background from "../../components/assets/background.png";
 
@@ -28,6 +29,13 @@ function App() {
 
           </div>
           <hr/>
+          <div>
+            <h4 className="repositories">Repositórios</h4>
+            <ItemList title="teste" description="lorem ipsum"/>
+            <ItemList title="teste" description="lorem ipsum"/>
+            <ItemList title="teste" description="lorem ipsum"/>
+            <ItemList title="teste" description="lorem ipsum"/>
+          </div>
         </div>
 
       </div>
