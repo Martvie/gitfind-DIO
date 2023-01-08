@@ -53,7 +53,7 @@ function App() {
 
               </div>
               <hr />
-            </>) : null}
+            </>) : <h2> Usuário não encontrado!</h2>}
 
           {repos?.length ? (
             <div>
