@@ -53,13 +53,13 @@ function App() {
 
               </div>
               <hr />
-            </>) : <h2> Usuário não encontrado!</h2>}
+            </>) : null }
 
           {repos?.length ? (
             <div>
               <h4 className="repositories">Repositórios</h4>
               {repos.map( repo => (
-                <ItemList title={repo.name} description={repo.description} />
+                <ItemList title={repo.name} link={repo.html_url} description={repo.description} />
               ))}
             </div>
           ) : null}

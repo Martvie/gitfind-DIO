@@ -1,9 +1,11 @@
 import React from "react";
 import "./styles.css";
-function itemList({ title, description }) {
+function itemList({ title, description, link }) {
     return (
         <div className="item-list">
-            <strong>{title}</strong>
+            <a href={link} target='_blank' rel="noreferrer">
+                <strong>{title}</strong>
+            </a>
             <p>{description}</p>
             <hr />
         </div>
