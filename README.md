@@ -5,7 +5,7 @@ Você testar o projeto [clicando aqui](https://gitfind-dio.vercel.app/)
 
 # imagens do projeto
 <p align="center">
-<img src="./images/screenshot.png">
+<img src="./src/images/screenshot.png">
 </p>
 
 
